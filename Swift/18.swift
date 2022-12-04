@@ -1,0 +1,6 @@
+let num1 = 1...10
+let num2 = 1...
+let num3 = 30...
+
+let num4 = 1..<10
+let num5 = ..<10
