@@ -23,7 +23,6 @@ var car3 = Car(name: "티코", price: 3200, speed: 230)
 
 var car4 = car1
 
-// 두개의 참조가 같은 인스턴스를 가리키고 있는 가를 비교하는 연산자
 
 print(car1 === car2)
 print(car1 === car3)

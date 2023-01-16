@@ -1,7 +1,6 @@
-// 타입 속성 해당 클래스에서 공통으로 선언된 값
 class Circle {
-    static let pi: Double = 3.14 // class라고도 사용 가능
-    static var count: Int = 0 // 단 class는 재정의 가능 static은 불가능
+    static let pi: Double = 3.14 
+    static var count: Int = 0 
 
     var radius: Double
 

@@ -1,4 +1,4 @@
-enum TemperatureUnit1 { // 열거형에서 실패가능 생성자와 원시값으로 구현하는 것은 거의 유사함
+enum TemperatureUnit1 { 
     case kelvin
     case celsius
     case faherenheit

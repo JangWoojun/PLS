@@ -7,15 +7,15 @@ class SomeSuperClass {
 }
 
 class SomeSubClass: SomeSuperClass {
-    override var aValue: Int { // 원칙 상으론 저장 속성 재정의가 안되지만
-        get { // 메서드를 추가하는 재정의는 가능 (속성 감시자,계산 속성)
+    override var aValue: Int { 
+        get { 
             return 1
         }
-        set { // self라고 하면 안됨
+        set { 
             super.aValue = newValue
         }
     }
-    override func doSomething() { // 메서드는 어떤 형태든 재정의 가능
+    override func doSomething() { 
         print(super.aValue)
         print("Do Something 2")
     }

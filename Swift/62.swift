@@ -1,4 +1,3 @@
-// 타입 서브 스크립트
 enum Planet: Int {
     case mercury = 1,venus,earth,mars,jupiter,saturn,uranus,neptune
 

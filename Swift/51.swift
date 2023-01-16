@@ -1,4 +1,3 @@
-// 저장 속성 (기본적인 변수들, ex) 메모리 공간을 가지는 것들)
 class Book {
     var name: String
     var price: Int

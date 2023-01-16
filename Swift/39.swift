@@ -1,4 +1,3 @@
-// 원시 값
 enum School : Int {
     case class1 = 1, class2, class3 , class4 , class5 , class6, class7, class8, class9
 }
@@ -28,7 +27,6 @@ print(Game(rawValue: 1)!)
 print(Game(rawValue: 2)!)
 print(Game(rawValue: 3)!)
 
-// 연관 값
 enum Human {
     case stat(sex : String, age : Int)
 }

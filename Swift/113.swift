@@ -5,8 +5,8 @@ protocol Bluetooth {
     func blueOff()
 }
 
-extension Bluetooth where Self: Remote { // where로 특정 조건에만 채택하게 만들 수 있음
-// Self는 자신의 타입을 의미함
+extension Bluetooth where Self: Remote { 
+
     func blueOn() {
         print("블루투스 ON")
     }

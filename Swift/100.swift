@@ -1,5 +1,5 @@
 protocol DataList {
-    subscript(index: Int) -> Int {get} // 서브스크립트 이렇게 가능
+    subscript(index: Int) -> Int {get} 
 }
 
 struct DataStruct: DataList {

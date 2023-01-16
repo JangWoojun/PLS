@@ -1,4 +1,4 @@
-// 4. 서브스크립트
+
 extension Int {
     subscript(num: Int) -> Int {
         var decimalBase = 1

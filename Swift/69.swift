@@ -1,10 +1,9 @@
-class Color { // 오버로딩을 지원하기에 생성자를 여러개로 생성 가능
-// 다양한 선택권을 개발자에게 줄 수 있음
+class Color { 
     var red: Double
     var green: Double
     var blue: Double
 
-    init() { // 기본 생성자 (저장 속성에 기본 값을 선언 시 자동으로 구현됨)
+    init() { 
         red = 0.0
         green = 0.0
         blue = 0.0

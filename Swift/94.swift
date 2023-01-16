@@ -1,7 +1,5 @@
-// 5. 새로운 중첩 타입 정의 및 사용
-
 extension Int {
-    enum Kind { // 중첩
+    enum Kind {
         case negative, zero, positive
     }
     var kind: Kind {

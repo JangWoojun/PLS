@@ -14,7 +14,7 @@ extension Some {
     }
 }
 
-struct A: Some{ // 프로토콜을 채택한 구조체는 용량이 크면 힙에 저장됨
+struct A: Some{ 
     func some3() {
         print("어떤3")
     }

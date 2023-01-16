@@ -1,6 +1,5 @@
 var intArray : Array<Int> = []
 
-// 배열 추가하기
 intArray.insert(1, at: 0)
 print(intArray)
 
@@ -13,7 +12,6 @@ print(intArray)
 intArray.append(contentsOf: [2,3,4])
 print(intArray)
 
-// 배열 교체하기
 intArray[0] = 0
 print(intArray)
 
@@ -23,7 +21,6 @@ print(intArray)
 intArray.replaceSubrange(0...5, with: [1,2,3,4,5,6])
 print(intArray)
 
-// 배열 삭제하기
 intArray[1...5] = []
 print(intArray)
 

@@ -1,4 +1,3 @@
-// 서브 스크립트 구현
 class SomeData {
     var datas = ["zero","one","two","tree","four"]
 

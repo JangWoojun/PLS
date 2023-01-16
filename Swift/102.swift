@@ -17,7 +17,6 @@ struct SetTopBox: Remote {
     }
 }
 
-let sbox: Remote = SetTopBox() // 프로토콜도 타입으로 가능
+let sbox: Remote = SetTopBox() 
 sbox.turnOn()
 sbox.turnOff()
-// 단 프로토콜에 있는 것만 접근 가능sbox.doNetflix()

@@ -1,6 +1,5 @@
-// Switch문 사용시
 let any: [Any] = [5,"3",1.5]
-// 1번 is
+
 for (index, item) in any.enumerated() {
     switch item {
     case is Int:
@@ -15,10 +14,10 @@ for (index, item) in any.enumerated() {
         print("그외 값")
     }
 }
-// 2번 as 
+
 for (index, item) in any.enumerated() {
     switch item {
-    case let sum as Int: // case let sum as Int = let sum = item as? Int
+    case let sum as Int: 
         print(index,"번은 정수",sum)
     case let sum as String:
         print(index,"번은 문자",sum)

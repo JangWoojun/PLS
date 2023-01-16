@@ -16,8 +16,8 @@ class AutomaticallyNamedDocument : Document{
         super.init()
         self.name = "Untitled"
     }
-    override init(name: String) { // 상위 실패 가능을 실패 불가능으로 재정의 가능
-        super.init() // 단 상위 실패 불가능을 실패 가능을 재정의는 불가
+    override init(name: String) { 
+        super.init() 
         if name.isEmpty {
             self.name = "Untitled"
         } else {

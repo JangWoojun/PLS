@@ -6,7 +6,7 @@ class SomeClass {
     
 }
 
-extension SomeClass: Some { // 관습적으로 프로토콜은 확장에서 채택한다 
+extension SomeClass: Some { 
     func doSomething() {
         print("DO")
     }

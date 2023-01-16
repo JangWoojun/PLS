@@ -1,6 +1,3 @@
-// 메서드의 메모리 동작 
-
-// 1. 클래스는 데이터 영역에 해당 메서드 코드 메모리 주소가 있다
 class Book {
     var name: String
     var price: Int
@@ -22,7 +19,6 @@ class Book {
     }
 }
 
-// 2. 구조체는 코드 영역에 메서드 주소가 있다
 struct Company {
     var name: String
     var marketCap: Int

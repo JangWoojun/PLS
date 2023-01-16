@@ -16,16 +16,15 @@ let person1 = Person()
 let student1 = Student()
 let undergraduate1 = Undergraduate()
 
-// 자식 요소들은 부모요소를 포함한다
-// is 연산자는 타입에 대한 검사를 수행한다 (인스턴스 is 타입)
-print(person1 is Person) // true
-print(person1 is Student) // false
-print(person1 is Undergraduate) // false
 
-print(student1 is Person) // true
-print(student1 is Student) // true
-print(student1 is Undergraduate) // false
+print(person1 is Person) 
+print(person1 is Student) 
+print(person1 is Undergraduate) 
 
-print(undergraduate1 is Person) // true
-print(undergraduate1 is Student) // true
-print(undergraduate1 is Undergraduate) // true
+print(student1 is Person) 
+print(student1 is Student) 
+print(student1 is Undergraduate) 
+
+print(undergraduate1 is Person) 
+print(undergraduate1 is Student) 
+print(undergraduate1 is Undergraduate) 

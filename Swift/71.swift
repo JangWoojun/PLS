@@ -1,6 +1,4 @@
 struct Color {
-// 구조체로 구현 시 제대로 된 생성자를 호출하게 하는 것이 올바른 코드임
-// 1. 유지보수 2. 가독성
     var red: Double
     var green: Double
     var blue: Double

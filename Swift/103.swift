@@ -30,13 +30,13 @@ struct SetTopBox: Remote {
 }
 let tv = TV()
 let sbox = SetTopBox()
-let some: [Remote] = [tv,sbox] // 배열에 프로토콜 타입으로 담기 가능
+let some: [Remote] = [tv,sbox] 
 
 for item in some {
-    item.turnOn() // 타입 캐스팅 필요없이 사용 가능
+    item.turnOn() 
 }
 
-func Doing(item: Remote) { // 함수에서 파라미터 가능
+func Doing(item: Remote) {
     item.turnOn()
 }
 

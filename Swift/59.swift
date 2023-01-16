@@ -1,4 +1,3 @@
-// 클래스나 구조체에 메서드도 오버로딩 지원함
 struct Dog1 {
     var name: String
 
