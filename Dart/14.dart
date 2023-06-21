@@ -1,15 +1,15 @@
 void main() {
     // 함수 정의
     int addNumbers(int a, int b) {
-    return a + b;
+        return a + b;
     }
 
     void printMessage(String message) {
-    print(message);
+        print(message);
     }
 
     bool isEven(int number) {
-    return number % 2 == 0;
+        return number % 2 == 0;
     }
 
     // 함수 호출
