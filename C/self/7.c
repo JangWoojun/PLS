@@ -15,7 +15,7 @@ void addBigNumbers(const char *a, const char *b, char *result) {
     i = lenA - 1;
     j = lenB - 1;
     k = MAX_SIZE - 1;
-    result[k] = '\0'; // NULL 종료 문자
+    result[k] = '\0';
 
     while (i >= 0 || j >= 0 || carry > 0) {
         sum = carry;
@@ -29,7 +29,6 @@ void addBigNumbers(const char *a, const char *b, char *result) {
         j--;
     }
 
-    // 결과 값의 앞부분 이동
     if (k > 0) {
         memmove(result, result + k, MAX_SIZE - k);
     }
