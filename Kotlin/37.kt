@@ -1,5 +1,5 @@
 fun main(){
-	val user = User("it", 1)
+	val user = User1("it", 1)
 	user.let {
         it.name
     }
@@ -10,4 +10,4 @@ fun main(){
     
 }
 
-data class User(val name: String, val age: Int)
+data class User1(val name: String, val age: Int)

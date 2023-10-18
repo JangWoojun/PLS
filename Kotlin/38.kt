@@ -1,5 +1,5 @@
 fun main(){
-	val user = User("this", 2)
+	val user = User2("this", 2)
 	user.apply {
         this.name
     }
@@ -10,4 +10,4 @@ fun main(){
 
 }
 
-data class User(val name: String, val age: Int)
+data class User2(val name: String, val age: Int)
