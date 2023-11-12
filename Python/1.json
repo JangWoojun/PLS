@@ -1,0 +1,16 @@
+{
+  "result": 0,
+  "return_object": {
+    "WiKiInfo": {
+      "IRInfo": [{ "wiki_title": "", "sent": "", "url": "" }],
+      "AnswerInfo": [
+        {
+          "rank": 1,
+          "answer": "김구(金九, 1876년 8월 29일 (1876년 음력 7월 11일) - 1949년 6월 26일)는 일제강점기 독립운동가이자 대한민국의 통일운동가, 정치인이다. 의열단체 한인애국단을 이끌었고 대한민국 임시 정부 주석을 역임하였으며 1962년 '건국훈장 대한민국장'이 추서되었다.",
+          "confidence": 0,
+          "url": ["https://ko.wikipedia.org/wiki/김구"]
+        }
+      ]
+    }
+  }
+}
