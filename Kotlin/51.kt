@@ -14,10 +14,14 @@ fun main() {
     val product = bigDec1 * bigDec2
 
     // 나눗셈
-    val quotient = bigDec1.divide(bigDec2, 5, BigDecimal.ROUND_HALF_UP)
+    val quotient1 = bigDec1.divide(bigDec2, 5, BigDecimal.ROUND_HALF_UP)
+    val quotient2 = bigDec1 / bigDec2
+
 
     println("덧셈: $sum")
     println("뺄셈: $difference")
     println("곱셈: $product")
-    println("나눗셈: $quotient")
+    println("나눗셈1: $quotient1")
+    println("나눗셈2: $quotient2")
+
 }
